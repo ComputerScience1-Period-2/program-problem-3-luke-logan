@@ -22,6 +22,8 @@ void pause() {
 
 //MAIN
 void main() {
+	int i=0;
+	for (;i>0;i++) {
 	int x;
 	cout << "Input 3 digit positive integer. . ." << endl;
 	cin >> x;
@@ -36,6 +38,7 @@ void main() {
 	}
 	else{
 		cout << "Your digits are neither ascending or descending." << endl;
+	}
 	}
 	pause();
 
