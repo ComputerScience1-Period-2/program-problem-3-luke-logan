@@ -29,13 +29,13 @@ void main() {
 	int b = (x % 100) / 10;
 	int c = (x % 10);
 	if (a < b && b < c) {
-		cout << "Your digits are in ascending order from left to right." << endl;
+		cout << "You have an ascending number" << endl;
 		}
 	else if (a > b && b > c) {
-		cout << "Your digits are in descending order from left to right." << endl;
+		cout << "Your have a descending number" << endl;
 	}
 	else{
-		cout << "Your digits are neither ascending or descending." << endl;
+		cout << "Your have neither an ascending or descending number" << endl;
 	}
 	pause();
 
