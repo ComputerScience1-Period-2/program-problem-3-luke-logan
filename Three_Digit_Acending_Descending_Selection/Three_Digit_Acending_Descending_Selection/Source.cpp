@@ -23,7 +23,7 @@ void pause() {
 //MAIN
 void main() {
 	int x;
-	cout << "Input 3 digit positive integer. . ." << endl;
+	cout << "Add in any 3 digit positive number. . ." << endl;
 	cin >> x;
 	int a = (x / 100);
 	int b = (x % 100) / 10;
