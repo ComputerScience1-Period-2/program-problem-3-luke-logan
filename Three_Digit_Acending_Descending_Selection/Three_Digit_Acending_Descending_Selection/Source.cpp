@@ -23,19 +23,19 @@ void pause() {
 //MAIN
 void main() {
 	int x;
-	cout << "Input 3 digit positive integer. . ." << endl;
+	cout << "Would you please input a 3 digit positive integer. . ." << endl;
 	cin >> x;
 	int a = (x / 100);
 	int b = (x % 100) / 10;
 	int c = (x % 10);
 	if (a < b && b < c) {
-		cout << "Your digits are in ascending order from left to right." << endl;
+		cout << "Huzzah! Your digits are in ascending order from left to right." << endl;
 		}
 	else if (a > b && b > c) {
-		cout << "Your digits are in descending order from left to right." << endl;
+		cout << "Good news! Your digits are in descending order from left to right." << endl;
 	}
 	else{
-		cout << "Your digits are neither ascending or descending." << endl;
+		cout << "Sadly, your digits are neither ascending or descending." << endl;
 	}
 	pause();
 
